@@ -1,5 +1,6 @@
 body {
-    background-image: url('bg.jpg');
+    background: -webkit-radial-gradient(center, ellipse cover, #505159 0%, #35343a 100%);
+    -webkit-background-size: cover;
     display: table;
     height: 100%;
     width: 100%;
