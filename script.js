@@ -50,6 +50,13 @@ function show_error(text) {
    show_message(text);
    var message= document.getElementById("message_content");
    message.classList.add("error");
+   var element = document.getElementById("password_entry");
+   element.classList.add("animated");
+   element.classList.add("shake");
+   window.setTimeout( function(){
+                element.classList.remove("animated");
+                element.classList.remove("shake");
+            }, 1000);
 }
 
 // called when the greeter is finished the authentication request
