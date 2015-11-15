@@ -4,6 +4,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    background-size: 100%;
 
     font-size: 10pt;
     text-shadow: 1px 1px 3px black;
@@ -153,5 +154,6 @@ a {
 }
 
 .action_label {
-  color: #B2B2B2;
+  color: #B8B9B8;
+  font-weight: bold;
 }
