@@ -134,6 +134,7 @@ a {
 .user_name {
   display: block;
   margin-top: 15px;
+  width: 80px;
   color: #EFEFEF;
 }
 
