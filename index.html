@@ -4,6 +4,7 @@
 <!-- mock.js is only required for local testing -->
 <script type="text/javascript" src="mock.js"></script> 
 <script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="animate.css">
 </head>
 
 <body onload="initialize()" oncontextmenu="return false;">
@@ -11,7 +12,7 @@
   <div class="login_content">
     <div class="login_container">
       <div class="center">
-        <div id="user_template" class="user hidden smooth button">
+        <div id="user_template" class="user hidden smooth button animated zoomIn">
           <div class="user_image_wrapper"> <img class="user_image" src=""/> </div>
           <span class="user_name"></span>
         </div>
@@ -27,7 +28,7 @@
     <div id="message_content"></div>
   </div>
   <div class="footer">
-      <div id="action_template" class="action button">
+      <div id="action_template" class="action button animated fadeIn">
         <div class="action_image_wrapper"><img class="action_image" src=""/></div>
         <span class="action_label"></span>
       </div>
