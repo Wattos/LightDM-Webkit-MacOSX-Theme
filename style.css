@@ -116,7 +116,7 @@ a {
 .user_image_wrapper {
   width: 80px;
   height: 80px;
-
+  overflow: hidden;
   border-radius: 60px;
   box-shadow: 0 0 1px 1px #222, inset 0 0 2px 1px #222;
   border: 2px solid #EEE;
@@ -129,7 +129,7 @@ a {
 
 .user_image {
   width: 80px;
-  height: 80px;
+  height: 90px;
   border-radius: 60px;
 }
 
