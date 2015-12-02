@@ -7,6 +7,8 @@ body {
 	margin: 0;
 	background-size: 100%;
 	font-size: 14px;
+	font-family: 'lucida_granderegular';
+	line-height: 1.4142;
 	text-shadow: 1px 1px 3px black;
 	-webkit-user-select: none;
 }
