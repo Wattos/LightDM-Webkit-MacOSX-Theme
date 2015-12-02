@@ -132,7 +132,7 @@ a {
 }
 
 .user_image_wrapper:hover {
-	box-shadow:  0 0 1px 1px #222, inset 0 0 2px 1px #222, 0 0 5px 2px #7DBEF1;
+	box-shadow:  0 0 0.1em 0.1em #222, inset 0 0 1em 0.1em #222, 0 0 0.5em 0.2em #7DBEF1;
 	-webkit-transition: box-shadow 0.2s;
 }
 
@@ -159,7 +159,7 @@ a {
 }
 
 .action_image {
-	width: 100%;
+	width: 50%;
 	margin-bottom: 0.25em;
 	opacity: 0.5;
 	-webkit-transition: opacity 0.3s;
@@ -183,7 +183,6 @@ a {
 	.user {max-width: 240px;}
 	.user_image_wrapper {width: 240px; height: 240px;}
 	.action {width: 240px;}
-	.action_image {width: 50%;}
 }
 
 @media (min-width: 3200px) {
